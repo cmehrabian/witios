@@ -13,6 +13,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    [Wit sharedInstance].accessToken = @"AEGKFF5IDXXONXIW3GNVPX7RYEVECBD2";
     return YES;
 }
 							

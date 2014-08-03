@@ -22,6 +22,11 @@
 		7EDDB307198E063E008321FE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EDDB2E6198E063D008321FE /* UIKit.framework */; };
 		7EDDB30F198E063E008321FE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7EDDB30D198E063E008321FE /* InfoPlist.strings */; };
 		7EDDB311198E063E008321FE /* WitTutoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EDDB310198E063E008321FE /* WitTutoTests.m */; };
+		7EDDB9B8198E0F37008321FE /* Wit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EDDB9B7198E0F37008321FE /* Wit.framework */; };
+		7EDDB9BA198E0F56008321FE /* Wit.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 7EDDB9B9198E0F56008321FE /* Wit.bundle */; };
+		7EDDB9BC198E103E008321FE /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EDDB9BB198E103E008321FE /* AVFoundation.framework */; };
+		7EDDB9BE198E1049008321FE /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EDDB9BD198E1049008321FE /* MobileCoreServices.framework */; };
+		7EDDB9C0198E1053008321FE /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EDDB9BF198E1053008321FE /* SystemConfiguration.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +60,11 @@
 		7EDDB30C198E063E008321FE /* WitTutoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WitTutoTests-Info.plist"; sourceTree = "<group>"; };
 		7EDDB30E198E063E008321FE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7EDDB310198E063E008321FE /* WitTutoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WitTutoTests.m; sourceTree = "<group>"; };
+		7EDDB9B7198E0F37008321FE /* Wit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Wit.framework; path = "../../Downloads/Wit-1.2.1 2/Wit.framework"; sourceTree = "<group>"; };
+		7EDDB9B9198E0F56008321FE /* Wit.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = Wit.bundle; path = "../../Downloads/Wit-1.2.1 2/Wit.bundle"; sourceTree = "<group>"; };
+		7EDDB9BB198E103E008321FE /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		7EDDB9BD198E1049008321FE /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		7EDDB9BF198E1053008321FE /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +72,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7EDDB9C0198E1053008321FE /* SystemConfiguration.framework in Frameworks */,
+				7EDDB9BE198E1049008321FE /* MobileCoreServices.framework in Frameworks */,
+				7EDDB9BC198E103E008321FE /* AVFoundation.framework in Frameworks */,
 				7EDDB2E5198E063D008321FE /* CoreGraphics.framework in Frameworks */,
+				7EDDB9B8198E0F37008321FE /* Wit.framework in Frameworks */,
 				7EDDB2E7198E063D008321FE /* UIKit.framework in Frameworks */,
 				7EDDB2E3198E063D008321FE /* Foundation.framework in Frameworks */,
 			);
@@ -84,6 +98,8 @@
 		7EDDB2D6198E063D008321FE = {
 			isa = PBXGroup;
 			children = (
+				7EDDB9B9198E0F56008321FE /* Wit.bundle */,
+				7EDDB9B7198E0F37008321FE /* Wit.framework */,
 				7EDDB2E8198E063E008321FE /* WitTuto */,
 				7EDDB30A198E063E008321FE /* WitTutoTests */,
 				7EDDB2E1198E063D008321FE /* Frameworks */,
@@ -103,6 +119,9 @@
 		7EDDB2E1198E063D008321FE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				7EDDB9BF198E1053008321FE /* SystemConfiguration.framework */,
+				7EDDB9BD198E1049008321FE /* MobileCoreServices.framework */,
+				7EDDB9BB198E103E008321FE /* AVFoundation.framework */,
 				7EDDB2E2198E063D008321FE /* Foundation.framework */,
 				7EDDB2E4198E063D008321FE /* CoreGraphics.framework */,
 				7EDDB2E6198E063D008321FE /* UIKit.framework */,
@@ -231,6 +250,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7EDDB9BA198E0F56008321FE /* Wit.bundle in Resources */,
 				7EDDB2F9198E063E008321FE /* Main_iPad.storyboard in Resources */,
 				7EDDB2FE198E063E008321FE /* Images.xcassets in Resources */,
 				7EDDB2F6198E063E008321FE /* Main_iPhone.storyboard in Resources */,
@@ -390,6 +410,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/Cameron/Downloads/Adobe,
+					Photoshop,
+					CS6,
+					"[Mac]",
+					xCYBERPIRATENx,
+					"/Users/Cameron/Downloads/Wit-1.2.1",
+					"/Users/Cameron/Downloads/Wit-1.2.1",
+					2,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "WitTuto/WitTuto-Prefix.pch";
 				INFOPLIST_FILE = "WitTuto/WitTuto-Info.plist";
@@ -403,6 +434,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/Cameron/Downloads/Adobe,
+					Photoshop,
+					CS6,
+					"[Mac]",
+					xCYBERPIRATENx,
+					"/Users/Cameron/Downloads/Wit-1.2.1",
+					"/Users/Cameron/Downloads/Wit-1.2.1",
+					2,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "WitTuto/WitTuto-Prefix.pch";
 				INFOPLIST_FILE = "WitTuto/WitTuto-Info.plist";
